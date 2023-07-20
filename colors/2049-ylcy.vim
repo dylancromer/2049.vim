@@ -8,7 +8,7 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let colors_name = "solar_void"
+let colors_name = "2049-ylci"
 
 hi! Normal gui=NONE guifg=#c4e1df guibg=#071e24
 hi! CursorLineNr guibg=#0d1a36 guifg=#60b0d6
