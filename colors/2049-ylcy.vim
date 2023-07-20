@@ -27,9 +27,9 @@ hi! Number gui=NONE guifg=#d74d50 guibg=NONE
 hi! Identifier gui=NONE guifg=#d4b869 guibg=NONE
 hi! Function gui=NONE guifg=#d9813d guibg=NONE
 hi! Statement gui=NONE guifg=#36bdbc guibg=NONE
-hi! PreProc gui=NONE guifg=#379ed6 guibg=NONE
+hi! PreProc gui=NONE guifg=#39a4de guibg=NONE
 hi! Type gui=NONE guifg=#d4b869 guibg=NONE
-hi! Special gui=NONE guifg=#379ed6 guibg=NONE
+hi! Special gui=NONE guifg=#39a4de guibg=NONE
 hi! Underlined gui=NONE guifg=#45be9b guibg=NONE
 hi! Ignore gui=NONE guifg=NONE guibg=NONE
 hi! Error gui=NONE,bold guifg=#d74d50 guibg=NONE
@@ -60,7 +60,7 @@ hi! NonText gui=NONE,bold guifg=#839496 guibg=NONE
 hi! Title gui=NONE,bold guifg=#d9813d guibg=NONE
 hi! NormalMode guifg=#60b0d6 guibg=#fdf6e3 gui=NONE,reverse
 hi! InsertMode guifg=#e5634f guibg=#fdf6e3 gui=NONE,reverse
-hi! ReplaceMode guifg=#379ed6 guibg=#fdf6e3 gui=NONE,reverse
+hi! ReplaceMode guifg=#39a4de guibg=#fdf6e3 gui=NONE,reverse
 hi! VisualMode guifg=#cb663c guibg=#fdf6e3 gui=NONE,reverse
 hi! CommandMode guifg=#cb663c guibg=#fdf6e3 gui=NONE,reverse
 hi! StatusLine guifg=#a4d0e3 guibg=#013640 gui=NONE
@@ -81,7 +81,7 @@ hi! LineNr gui=NONE guifg=#879aa1
 hi! Question gui=NONE,bold guifg=#e5634f guibg=NONE
 hi! VertSplit gui=NONE guifg=#013640 guibg=#013640
 hi! VisualNOS guifg=NONE guibg=#03272f gui=NONE,reverse
-hi! WarningMsg gui=NONE,bold guifg=#379ed6 guibg=NONE
+hi! WarningMsg gui=NONE,bold guifg=#39a4de guibg=NONE
 hi! WildMenu guibg=#fdf6e3 guifg=#03272f gui=NONE,reverse
 hi! Folded gui=NONE,bold guifg=#60b0d6 guisp=#002b36
 hi! FoldColumn gui=NONE guifg=#60b0d6
@@ -131,7 +131,7 @@ if has('nvim')
   let g:terminal_color_6 = '#e5634f'
   let g:terminal_color_7 = '#eee8d5'
   let g:terminal_color_8 = '#002b36'
-  let g:terminal_color_9 = '#379ed6'
+  let g:terminal_color_9 = '#39a4de'
   let g:terminal_color_10 = '#586e75'
   let g:terminal_color_11 = '#879aa1'
   let g:terminal_color_12 = '#839496'
@@ -197,7 +197,7 @@ hi! texMathMatcher guifg=#d9813d guibg=#002b36 gui=NONE
 hi! texMathMatcher guifg=#d9813d guibg=#002b36 gui=NONE
 hi! texRefLabel guifg=#d9813d guibg=#002b36 gui=NONE
 hi! rubyDefine guifg=#eee8d5 guibg=#002b36 gui=NONE,bold
-hi! cPreCondit guifg=#379ed6 guibg=NONE gui=NONE
+hi! cPreCondit guifg=#39a4de guibg=NONE gui=NONE
 hi! VarId guifg=#d4b869 guibg=NONE gui=NONE
 hi! ConId guifg=#d9813d guibg=NONE gui=NONE
 hi! hsImport guifg=#cb663c guibg=NONE gui=NONE
@@ -207,7 +207,7 @@ hi! hs_hlFunctionName guifg=#d4b869 guibg=NONE
 hi! hsStatement guifg=#e5634f guibg=NONE gui=NONE
 hi! hsImportLabel guifg=#e5634f guibg=NONE gui=NONE
 hi! hs_OpFunctionName guifg=#d9813d guibg=NONE gui=NONE
-hi! hs_DeclareFunction guifg=#379ed6 guibg=NONE gui=NONE
+hi! hs_DeclareFunction guifg=#39a4de guibg=NONE gui=NONE
 hi! hsVarSym guifg=#e5634f guibg=NONE gui=NONE
 hi! hsType guifg=#d9813d guibg=NONE gui=NONE
 hi! hsTypedef guifg=#e5634f guibg=NONE gui=NONE
@@ -262,17 +262,17 @@ hi! pandocStrikeoutTable guifg=#d4b869 guibg=NONE gui=NONE,reverse
 hi! pandocVerbatimInlineTable guifg=#d4b869 guibg=NONE gui=NONE
 hi! pandocSuperscriptTable guifg=#d4b869 guibg=NONE gui=NONE
 hi! pandocSubscriptTable guifg=#d4b869 guibg=NONE gui=NONE
-hi! pandocHeading guifg=#379ed6 guibg=NONE gui=NONE,bold
+hi! pandocHeading guifg=#39a4de guibg=NONE gui=NONE,bold
 hi! pandocHeadingMarker guifg=#d9813d guibg=NONE gui=NONE,bold
-hi! pandocEmphasisHeading guifg=#379ed6 guibg=NONE gui=NONE,bold
-hi! pandocEmphasisNestedHeading guifg=#379ed6 guibg=NONE gui=NONE,bold
-hi! pandocStrongEmphasisHeading guifg=#379ed6 guibg=NONE gui=NONE,bold
-hi! pandocStrongEmphasisNestedHeading guifg=#379ed6 guibg=NONE gui=NONE,bold
-hi! pandocStrongEmphasisEmphasisHeading guifg=#379ed6 guibg=NONE gui=NONE,bold
-hi! pandocStrikeoutHeading guifg=#379ed6 guibg=NONE gui=NONE,reverse
-hi! pandocVerbatimInlineHeading guifg=#379ed6 guibg=NONE gui=NONE,bold
-hi! pandocSuperscriptHeading guifg=#379ed6 guibg=NONE gui=NONE,bold
-hi! pandocSubscriptHeading guifg=#379ed6 guibg=NONE gui=NONE,bold
+hi! pandocEmphasisHeading guifg=#39a4de guibg=NONE gui=NONE,bold
+hi! pandocEmphasisNestedHeading guifg=#39a4de guibg=NONE gui=NONE,bold
+hi! pandocStrongEmphasisHeading guifg=#39a4de guibg=NONE gui=NONE,bold
+hi! pandocStrongEmphasisNestedHeading guifg=#39a4de guibg=NONE gui=NONE,bold
+hi! pandocStrongEmphasisEmphasisHeading guifg=#39a4de guibg=NONE gui=NONE,bold
+hi! pandocStrikeoutHeading guifg=#39a4de guibg=NONE gui=NONE,reverse
+hi! pandocVerbatimInlineHeading guifg=#39a4de guibg=NONE gui=NONE,bold
+hi! pandocSuperscriptHeading guifg=#39a4de guibg=NONE gui=NONE,bold
+hi! pandocSubscriptHeading guifg=#39a4de guibg=NONE gui=NONE,bold
 hi! pandocLinkDelim guifg=#879aa1 guibg=NONE gui=NONE
 hi! pandocLinkLabel guifg=#d4b869 guibg=NONE gui=NONE
 hi! pandocLinkText guifg=#d4b869 guibg=NONE gui=NONE,bold
