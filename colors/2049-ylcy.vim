@@ -10,7 +10,7 @@ if exists("syntax_on")
 endif
 let colors_name = "2049-ylci"
 
-hi! Normal gui=NONE guifg=#c4e1df guibg=#071e24
+hi! Normal gui=NONE guifg=#c4e1df guibg=#05181c
 hi! CursorLineNr guibg=#0d1a36 guifg=#60b0d6
 hi! CursorLine gui=NONE guifg=NONE guibg=#032931 guisp=#eee8d5
 hi! CursorColumn gui=NONE guifg=NONE guibg=#032931
