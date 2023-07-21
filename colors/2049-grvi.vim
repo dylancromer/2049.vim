@@ -112,10 +112,10 @@ hi! SpellBad gui=NONE,undercurl guifg=NONE guibg=NONE guisp=#50a574
 hi! SpellCap gui=NONE,undercurl guifg=NONE guibg=NONE guisp=#d27ef1
 hi! SpellRare gui=NONE,undercurl guifg=NONE guibg=NONE guisp=#dd85db
 hi! SpellLocal gui=NONE,undercurl guifg=NONE guibg=NONE guisp=#3fb786
-hi! Pmenu guifg=#8e94d6 guibg=#012337 gui=NONE,reverse
-hi! PmenuSel guifg=#a389a2 guibg=#fdf6e3 gui=NONE,reverse
-hi! PmenuSbar guifg=#fdf6e3 guibg=#8e94d6 gui=NONE,reverse
-hi! PmenuThumb guifg=#8e94d6 guibg=#002b36 gui=NONE,reverse
+hi! Pmenu guifg=#99a0e7 guibg=#222333 gui=NONE
+hi! PmenuSel guifg=#3f2c3f guibg=#fdf6e3 gui=NONE,reverse
+hi! PmenuSbar guifg=#fdf6e3 guibg=#222333 gui=NONE
+hi! PmenuThumb guifg=#222333 guibg=#54539e gui=NONE
 hi! link lCursor Cursor
 hi! link StatusLineTerm StatusLine
 hi! link StatusLineTermNC StatusLineNC
