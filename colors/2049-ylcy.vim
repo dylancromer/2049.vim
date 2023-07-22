@@ -66,7 +66,7 @@ hi! CommandMode guifg=#cb663c guibg=#fdf6e3 gui=NONE,reverse
 hi! StatusLine guifg=#a4d0e3 guibg=#013640 gui=NONE
 hi! StatusLineNC guifg=#748a8a guibg=#03272f gui=NONE
 hi! Floaterm guibg=#05181c
-hi! FloatermBorder guibg=#03272f guifg=#60b0d6
+hi! FloatermBorder guibg=#03272f guifg=#539998
 hi! SignColumn guifg=#a4d0e3 guibg=#013640 gui=NONE
 hi! SignColumnNC guifg=#748a8a guibg=#03272f gui=NONE
 hi! TabLine guifg=#879aa1 guibg=#03272f gui=NONE,reverse
