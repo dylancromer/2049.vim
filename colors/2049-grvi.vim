@@ -67,7 +67,7 @@ hi! StatusLine guifg=#9fa4dc guibg=#012a42 gui=NONE
 hi! StatusLineNC guifg=#8a7489 guibg=#012337 gui=NONE
 hi! Floaterm guibg=#001522
 hi! FloatermBorder guibg=#012337 guifg=#656a99
-hi! SignColumn guifg=#9fa4dc guibg=#012a42 gui=NONE
+hi! SignColumn guifg=#9fa4dc guibg=#012337 gui=NONE
 hi! SignColumnNC guifg=#8a7489 guibg=#012337 gui=NONE
 hi! TabLine guifg=#a389a2 guibg=#012337 gui=NONE,reverse
 hi! TabLineFill guifg=#a389a2 guibg=#012337 gui=NONE,reverse
@@ -75,8 +75,8 @@ hi! TabLineSel guifg=#8e94d6 guibg=#012337 gui=NONE,reverse
 hi! Visual guifg=#cbc5b6 guibg=#0b5466 gui=NONE
 hi! Directory gui=NONE guifg=#d64b8e guibg=NONE
 hi! ErrorMsg gui=NONE,reverse guifg=#e54163 guibg=#fdf6e3
-hi! IncSearch gui=NONE,standout guifg=#1f8685 guibg=NONE
-hi! Search gui=NONE,reverse guifg=#b8964a guibg=NONE
+hi! IncSearch gui=NONE,standout guifg=#7ac9dc guibg=#001522
+hi! Search gui=NONE,reverse guifg=#dbb258 =#001522
 hi! MoreMsg gui=NONE guifg=#d64b8e guibg=NONE
 hi! ModeMsg gui=NONE guifg=#d64b8e guibg=NONE
 hi! LineNr gui=NONE guifg=#a389a2
@@ -108,7 +108,6 @@ else
   hi! DiffDelete gui=NONE guifg=#e54163 guibg=#012337
   hi! DiffText gui=NONE guifg=#d64b8e guibg=#012337 guisp=#d64b8e
 endif
-hi! SignColumn gui=NONE guifg=#8e94d6 guibg=NONE
 hi! Conceal gui=NONE guifg=#d64b8e guibg=NONE
 hi! SpellBad gui=NONE,undercurl guifg=NONE guibg=NONE guisp=#50a574
 hi! SpellCap gui=NONE,undercurl guifg=NONE guibg=NONE guisp=#d27ef1
