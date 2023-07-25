@@ -76,7 +76,7 @@ hi! Visual guifg=#cbc5b6 guibg=#0b5466 gui=NONE
 hi! Directory gui=NONE guifg=#d64b8e guibg=NONE
 hi! ErrorMsg gui=NONE,reverse guifg=#e54163 guibg=#fdf6e3
 hi! IncSearch gui=NONE,standout guifg=#7ac9dc guibg=#001522
-hi! Search gui=NONE,reverse guifg=#dbb258 =#001522
+hi! Search gui=NONE,reverse guifg=#dbb258 guibg=#001522
 hi! MoreMsg gui=NONE guifg=#d64b8e guibg=NONE
 hi! ModeMsg gui=NONE guifg=#d64b8e guibg=NONE
 hi! LineNr gui=NONE guifg=#a389a2
