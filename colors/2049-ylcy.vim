@@ -75,8 +75,8 @@ hi! TabLineSel guifg=#60b0d6 guibg=#03272f gui=NONE,reverse
 hi! Visual guifg=#cbc5b6 guibg=#0b5466 gui=NONE
 hi! Directory gui=NONE guifg=#d4b869 guibg=NONE
 hi! ErrorMsg gui=NONE,reverse guifg=#d74d50 guibg=#fdf6e3
-hi! IncSearch gui=NONE,standout guifg=#97e781  guibg=#05181c
-hi! Search gui=NONE,reverse guifg=#6edcc6 guibg=#05181c
+hi! IncSearch gui=NONE,standout guifg=#86cc72 guibg=#05181c
+hi! Search gui=NONE,reverse guifg=#67cdb9 guibg=#05181c
 hi! MoreMsg gui=NONE guifg=#d4b869 guibg=NONE
 hi! ModeMsg gui=NONE guifg=#d4b869 guibg=NONE
 hi! LineNr gui=NONE guifg=#879aa1
